@@ -24,3 +24,11 @@ def print_weekdays():
     weekdays = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"]
     for day in weekdays:
         print(day)
+
+# Çift sayıları yazdıran fonksiyon
+def print_even_numbers():
+    for num in range(2, 101, 2):
+        print(num)
+
+# Fonksiyonu çağır
+print_even_numbers()
