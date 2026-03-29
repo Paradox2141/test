@@ -32,3 +32,8 @@ def print_even_numbers():
 
 # Fonksiyonu çağır
 print_even_numbers()
+
+greeting = "good morning"
+
+if greeting == "morning":
+    print ("Good morning!")
