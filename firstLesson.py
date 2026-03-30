@@ -33,7 +33,11 @@ def print_even_numbers():
 # Fonksiyonu çağır
 print_even_numbers()
 
-greeting = "good morning"
+greeting = "good afternoon"
 
-if greeting == "morning":
-    print ("Good morning!")
+if greeting == "good afternoon":
+    print ("Good afternoon!")
+else:
+    print("condition not met")
+
+print("condition is completed")
