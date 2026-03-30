@@ -41,3 +41,12 @@ else:
     print("condition not met")
 
 print("condition is completed")
+
+
+
+for obj in [1, 2, 4, 6, 9]:
+    print(obj)
+sum = 0
+for j in range(1, 11):
+    sum = sum + j
+    print(sum)
