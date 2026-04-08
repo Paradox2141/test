@@ -1,52 +1,68 @@
-print("Hello, World!")
-# define a function to greet the user
-def greet(name):
-    print(f"Hello, {name}!")
-# call the function with a namegreet("Alice")
-greet("Ufuk")    
+# print("Hello, World!")
+# # define a function to greet the user
+# def greet(name):
+#     print(f"Hello, {name}!")
+# # call the function with a namegreet("Alice")
+# greet("Ufuk")    
 
-# 1'den 100'e kadar asal sayıları yazdıran fonksiyon
-def print_primes_1_to_100():
-    for num in range(2, 101):
-        is_prime = True
-        for i in range(2, int(num ** 0.5) + 1):
-            if num % i == 0:
-                is_prime = False
-                break
-        if is_prime:
-            print(num)
+# # 1'den 100'e kadar asal sayıları yazdıran fonksiyon
+# def print_primes_1_to_100():
+#     for num in range(2, 101):
+#         is_prime = True
+#         for i in range(2, int(num ** 0.5) + 1):
+#             if num % i == 0:
+#                 is_prime = False
+#                 break
+#         if is_prime:
+#             print(num)
 
-# Fonksiyonu çağır
-print_primes_1_to_100()
+# # Fonksiyonu çağır
+# print_primes_1_to_100()
 
-# haftanın gonlerini yazdıran fonksiyon
-def print_weekdays():
-    weekdays = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"]
-    for day in weekdays:
-        print(day)
+# # haftanın gonlerini yazdıran fonksiyon
+# def print_weekdays():
+#     weekdays = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"]
+#     for day in weekdays:
+#         print(day)
 
-# Çift sayıları yazdıran fonksiyon
-def print_even_numbers():
-    for num in range(2, 101, 2):
-        print(num)
+# # Çift sayıları yazdıran fonksiyon
+# def print_even_numbers():
+#     for num in range(2, 101, 2):
+#         print(num)
 
-# Fonksiyonu çağır
-print_even_numbers()
+# # Fonksiyonu çağır
+# print_even_numbers()
 
-greeting = "good afternoon"
+# greeting = "good afternoon"
 
-if greeting == "good afternoon":
-    print ("Good afternoon!")
-else:
-    print("condition not met")
+# if greeting == "good afternoon":
+#     print ("Good afternoon!")
+# else:
+#     print("condition not met")
 
-print("condition is completed")
+# print("condition is completed")
 
 
 
-for obj in [1, 2, 4, 6, 9]:
-    print(obj)
-sum = 0
-for j in range(1, 11):
-    sum = sum + j
-    print(sum)
+# for obj in [1, 2, 4, 6, 9]:
+#     print(obj)
+# sum = 0
+# for j in range(1, 11):
+#     sum = sum + j
+#     print(sum)
+
+# a = int(input("test\n"))
+
+# def input_number():
+#     return int(input("Please enter a number: "))
+
+# input1 = input_number()
+# print(f"You entered: {input1}")
+
+isim = str(input("Lütfen isminizi giriniz: "))
+dogum_yili = int(input("Lütfen doğum yılınızı giriniz: "))
+if dogum_yili < 2008:
+    print(f"Siz resitsiniz, {isim}!")
+else:    
+    print(f"Üzgünüm, {isim}, henüz reşit değilsiniz.")
+          
